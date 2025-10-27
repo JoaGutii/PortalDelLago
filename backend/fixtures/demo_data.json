@@ -1,0 +1,43 @@
+[
+  {
+    "model": "core.incident",
+    "pk": 1,
+    "fields": {
+      "title": "Fuga de agua en ba\u00f1o",
+      "description": "Se observa p\u00e9rdida en la canilla del ba\u00f1o 203.",
+      "room": "203",
+      "reported_by": 3,
+      "assigned_to": 4,
+      "status": "OPEN",
+      "created_at": "2024-01-02T00:00:00Z",
+      "updated_at": "2024-01-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.maintenanceTask",
+    "pk": 1,
+    "fields": {
+      "title": "Revisi\u00f3n del ascensor",
+      "detail": "Ruido intermitente al detenerse en piso 1.",
+      "priority": "HIGH",
+      "created_by": 2,
+      "assigned_to": 4,
+      "done": false,
+      "created_at": "2024-01-03T00:00:00Z",
+      "updated_at": "2024-01-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "core.lostfounditem",
+    "pk": 1,
+    "fields": {
+      "description": "Billetera negra sin identificaci\u00f3n.",
+      "location": "Lobby",
+      "date_found": "2024-01-04",
+      "registered_by": 2,
+      "state": "REGISTERED",
+      "delivered_to": "",
+      "created_at": "2024-01-04T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$sOmEsAlT$D6uV0VY5F6iY3F/4N2kOMVkxO0bS0m5m6cGkZrVtqXs=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "superadmin",
+      "first_name": "Super",
+      "last_name": "Admin",
+      "email": "superadmin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "role": "SUPERADMIN",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$sOmEsAlT$QbWl4S9gZ5h9TQ4B+xxr8/9s0eA7pMZyCj8QqK6g1qk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "recepcion",
+      "first_name": "Recepci\u00f3n",
+      "last_name": "Hotel",
+      "email": "recepcion@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "role": "RECEPCION",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$sOmEsAlT$g8s7f1f0tNfH8nF8oG7pQ3jK9yC3b5V5a3s8l6d5f4s=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mucama",
+      "first_name": "Mucama",
+      "last_name": "Hotel",
+      "email": "mucama@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "role": "MUCAMA",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$sOmEsAlT$g8s7f1f0tNfH8nF8oG7pQ3jK9yC3b5V5a3s8l6d5f4t=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mantenimiento",
+      "first_name": "Mantenimiento",
+      "last_name": "Hotel",
+      "email": "mantenimiento@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "role": "MANTENIMIENTO",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
